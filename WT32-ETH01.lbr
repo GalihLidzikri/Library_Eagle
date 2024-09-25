@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.6.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="WT32-ETH01">
+<wire x1="-12.446" y1="26.162" x2="13.716" y2="26.162" width="0.127" layer="21"/>
+<wire x1="13.716" y1="26.162" x2="13.716" y2="-28.956" width="0.127" layer="21"/>
+<wire x1="6.35" y1="-34.036" x2="-5.08" y2="-34.036" width="0.127" layer="21"/>
+<wire x1="-12.446" y1="26.162" x2="-12.446" y2="-28.956" width="0.127" layer="21"/>
+<pad name="EN" x="-11.43" y="16.002" drill="0.6" shape="octagon"/>
+<pad name="TX0" x="12.7" y="16.002" drill="0.6" shape="octagon"/>
+<pad name="GND" x="-11.43" y="13.208" drill="0.6" shape="octagon"/>
+<pad name="3V3" x="-11.43" y="10.414" drill="0.6" shape="octagon"/>
+<pad name="EN_2" x="-11.43" y="7.62" drill="0.6" shape="octagon"/>
+<pad name="CFG" x="-11.43" y="5.08" drill="0.6" shape="octagon"/>
+<pad name="IO33" x="-11.43" y="2.286" drill="0.6" shape="octagon"/>
+<pad name="RX2" x="-11.43" y="-0.508" drill="0.6" shape="octagon"/>
+<pad name="TX2" x="-11.43" y="-3.302" drill="0.6" shape="octagon"/>
+<pad name="GND_2" x="-11.43" y="-6.096" drill="0.6" shape="octagon"/>
+<pad name="3V3_2" x="-11.43" y="-8.89" drill="0.6" shape="octagon"/>
+<pad name="GND_3" x="-11.43" y="-11.684" drill="0.6" shape="octagon"/>
+<pad name="5V" x="-11.43" y="-14.478" drill="0.6" shape="octagon"/>
+<pad name="LINK" x="-11.43" y="-17.272" drill="0.6" shape="octagon"/>
+<pad name="RX0" x="12.7" y="13.208" drill="0.6" shape="octagon"/>
+<pad name="IO0" x="12.7" y="10.414" drill="0.6" shape="octagon"/>
+<pad name="GND_4" x="12.7" y="7.62" drill="0.6" shape="octagon"/>
+<pad name="IO39" x="12.7" y="5.08" drill="0.6" shape="octagon"/>
+<pad name="IO36" x="12.7" y="2.286" drill="0.6" shape="octagon"/>
+<pad name="IO15" x="12.7" y="-0.508" drill="0.6" shape="octagon"/>
+<pad name="IO14" x="12.7" y="-3.302" drill="0.6" shape="octagon"/>
+<pad name="IO12" x="12.7" y="-6.096" drill="0.6" shape="octagon"/>
+<pad name="IO35" x="12.7" y="-8.89" drill="0.6" shape="octagon"/>
+<pad name="IO4" x="12.7" y="-11.684" drill="0.6" shape="octagon"/>
+<pad name="IO2" x="12.7" y="-14.478" drill="0.6" shape="octagon"/>
+<pad name="GND_5" x="12.7" y="-17.272" drill="0.6" shape="octagon"/>
+<wire x1="-5.08" y1="-18.034" x2="6.35" y2="-18.034" width="0.127" layer="17"/>
+<wire x1="-5.08" y1="-18.034" x2="-5.08" y2="-34.036" width="0.127" layer="17"/>
+<wire x1="-5.08" y1="-34.036" x2="6.35" y2="-34.036" width="0.127" layer="17"/>
+<wire x1="-5.08" y1="-34.036" x2="-5.08" y2="-28.956" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="-28.956" x2="-5.08" y2="-18.034" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="-18.034" x2="6.35" y2="-18.034" width="0.127" layer="21"/>
+<wire x1="-12.446" y1="-28.956" x2="-5.08" y2="-28.956" width="0.127" layer="21"/>
+<wire x1="6.35" y1="-18.034" x2="6.35" y2="-28.956" width="0.127" layer="21"/>
+<wire x1="6.35" y1="-28.956" x2="6.35" y2="-34.036" width="0.127" layer="21"/>
+<wire x1="13.716" y1="-28.956" x2="6.35" y2="-28.956" width="0.127" layer="21"/>
+<wire x1="-8.382" y1="17.272" x2="9.652" y2="17.272" width="0.127" layer="21"/>
+<wire x1="9.652" y1="17.272" x2="9.652" y2="0.762" width="0.127" layer="21"/>
+<wire x1="9.652" y1="0.762" x2="-8.382" y2="0.762" width="0.127" layer="21"/>
+<wire x1="-8.382" y1="0.762" x2="-8.382" y2="17.272" width="0.127" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="WT32-ETH01">
+<pin name="EN" x="-17.78" y="15.24" length="middle"/>
+<pin name="GND" x="-17.78" y="12.7" length="middle"/>
+<pin name="3V3" x="-17.78" y="10.16" length="middle"/>
+<pin name="EN_2" x="-17.78" y="7.62" length="middle"/>
+<pin name="CFG" x="-17.78" y="5.08" length="middle"/>
+<pin name="IO33" x="-17.78" y="2.54" length="middle"/>
+<pin name="RX2" x="-17.78" y="0" length="middle"/>
+<pin name="TX2" x="-17.78" y="-2.54" length="middle"/>
+<pin name="GND_2" x="-17.78" y="-5.08" length="middle"/>
+<pin name="3V3_2" x="-17.78" y="-7.62" length="middle"/>
+<pin name="GND_3" x="-17.78" y="-10.16" length="middle"/>
+<pin name="5V" x="-17.78" y="-12.7" length="middle"/>
+<pin name="LINK" x="-17.78" y="-15.24" length="middle"/>
+<pin name="TX0" x="17.78" y="15.24" length="middle" rot="R180"/>
+<pin name="RX0" x="17.78" y="12.7" length="middle" rot="R180"/>
+<pin name="IO0" x="17.78" y="10.16" length="middle" rot="R180"/>
+<pin name="GND_4" x="17.78" y="7.62" length="middle" rot="R180"/>
+<pin name="IO39" x="17.78" y="5.08" length="middle" rot="R180"/>
+<pin name="IO36" x="17.78" y="2.54" length="middle" rot="R180"/>
+<pin name="IO15" x="17.78" y="0" length="middle" rot="R180"/>
+<pin name="IO14" x="17.78" y="-2.54" length="middle" rot="R180"/>
+<pin name="IO12" x="17.78" y="-5.08" length="middle" rot="R180"/>
+<pin name="IO35" x="17.78" y="-7.62" length="middle" rot="R180"/>
+<pin name="IO4" x="17.78" y="-10.16" length="middle" rot="R180"/>
+<pin name="IO2" x="17.78" y="-12.7" length="middle" rot="R180"/>
+<pin name="GND_5" x="17.78" y="-15.24" length="middle" rot="R180"/>
+<wire x1="-12.7" y1="20.32" x2="12.7" y2="20.32" width="0.254" layer="94"/>
+<wire x1="12.7" y1="20.32" x2="12.7" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-20.32" x2="5.08" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-20.32" x2="-12.7" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-20.32" x2="-12.7" y2="20.32" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-20.32" x2="-5.08" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-25.4" x2="5.08" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-25.4" x2="5.08" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-20.32" x2="-5.08" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-15.24" x2="5.08" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-15.24" x2="5.08" y2="-20.32" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="WT32-ETH01" prefix="WT32" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="WT32-ETH01" x="0" y="-2.54"/>
+</gates>
+<devices>
+<device name="" package="WT32-ETH01">
+<connects>
+<connect gate="G$1" pin="3V3" pad="3V3"/>
+<connect gate="G$1" pin="3V3_2" pad="3V3_2"/>
+<connect gate="G$1" pin="5V" pad="5V"/>
+<connect gate="G$1" pin="CFG" pad="CFG"/>
+<connect gate="G$1" pin="EN" pad="EN"/>
+<connect gate="G$1" pin="EN_2" pad="EN_2"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="GND_2" pad="GND_2"/>
+<connect gate="G$1" pin="GND_3" pad="GND_3"/>
+<connect gate="G$1" pin="GND_4" pad="GND_4"/>
+<connect gate="G$1" pin="GND_5" pad="GND_5"/>
+<connect gate="G$1" pin="IO0" pad="IO0"/>
+<connect gate="G$1" pin="IO12" pad="IO12"/>
+<connect gate="G$1" pin="IO14" pad="IO14"/>
+<connect gate="G$1" pin="IO15" pad="IO15"/>
+<connect gate="G$1" pin="IO2" pad="IO2"/>
+<connect gate="G$1" pin="IO33" pad="IO33"/>
+<connect gate="G$1" pin="IO35" pad="IO35"/>
+<connect gate="G$1" pin="IO36" pad="IO36"/>
+<connect gate="G$1" pin="IO39" pad="IO39"/>
+<connect gate="G$1" pin="IO4" pad="IO4"/>
+<connect gate="G$1" pin="LINK" pad="LINK"/>
+<connect gate="G$1" pin="RX0" pad="RX0"/>
+<connect gate="G$1" pin="RX2" pad="RX2"/>
+<connect gate="G$1" pin="TX0" pad="TX0"/>
+<connect gate="G$1" pin="TX2" pad="TX2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
